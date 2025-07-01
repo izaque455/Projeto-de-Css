@@ -1,0 +1,137 @@
+
+nav {
+    margin-top: 44px;
+    margin-left: 76px;
+}
+
+a {
+    margin-left: 23px;
+}
+
+.menu {
+    color: #989D9C;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.entra {
+    width: 130px;
+    height: 41px;
+    background: #665AE1;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border: none;
+    border-radius: 20px;
+    margin-left: 23px;
+}
+
+img {
+    margin-top: 117px;
+    margin-left: 125px;
+    width: 568px;
+    height: 500px;
+}
+
+aside {
+    margin-left: 801px;
+    margin-top: -550px;
+}
+
+h1 {
+    color: #515151;
+    font-family: Montserrat;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+h2 {
+    color: #515151;
+
+    font-family: Montserrat;
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: -80px;
+    margin-left: 10px;
+}
+
+p {
+    width: 200;
+    height: 87;
+    color: #848484;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.Botao {
+    width: 239px;
+    height: 64px;
+    border-radius: 20.5px;
+    background: #ADFF00;
+    border: none;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+@media screen and (max-width: 404px) {
+       
+        .container{
+            height: calc(100vh -200px);
+            width: -400vh;
+        }
+
+
+     
+    img {
+        width: 354px;
+        height: 317px;
+        margin-left: 80px;
+    }
+
+    h1 {
+        font-size: 50px;
+        margin-top: 600px;
+        margin-left: -650px;
+
+    }
+
+    h2 {
+        font-size: 30px;
+        margin-top: -40px;
+        margin-left: -630px;
+    }
+
+    p {
+        display: none;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .Botao {
+        margin-top: -350;
+        margin-left: -650px;
+    }
+  meta {
+        width: 95%; /* Aumenta a largura do contêiner em telas menores */
+        padding: 10px; /* Diminui o padding */
+        font-size: 14px; }
+}
